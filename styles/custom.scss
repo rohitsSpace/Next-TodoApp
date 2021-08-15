@@ -1,0 +1,21 @@
+.text-link {
+  color: $link-color !important;
+  cursor: pointer;
+  &:hover {
+    color: $link-hover-color !important;
+  }
+}
+a:hover .text-link {
+  color: $link-hover-color !important;
+}
+
+.text-link-light {
+  color: lighten($link-color, 20%) !important;
+  cursor: pointer;
+  &:hover {
+    color: lighten($link-hover-color, 20%) !important;
+  }
+}
+a:hover .text-link-light {
+  color: lighten($link-hover-color, 20%) !important;
+}
